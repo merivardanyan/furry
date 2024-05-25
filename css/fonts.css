@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'NextDemo';
+    src: url(../fonts/YoureNextDemoRegular.ttf) format(truetype);
+}
+
+@font-face {
+    font-family: 'gill';
+    src: url(../fonts/Gill\ Sans\ Bold\ Italic.otf) format(otf);
+}

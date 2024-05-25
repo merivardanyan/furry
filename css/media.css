@@ -1,0 +1,48 @@
+@media all and (max-width: 600px) {
+    .row{
+        flex-wrap: wrap;
+        padding: 10px!important;
+
+    }
+    .col{
+        width: 100%;
+    }
+    nav .flex{
+        flex-wrap: wrap;
+    }
+    #help_you .image_1 img {
+        width: 100%;
+    }
+    #help_you .image_1 {
+        width: 60%;
+    }
+    #help_you .image_2 {
+        width: 35%;
+    }
+    #subscribe .col:nth-child(2){
+        order: -1;
+    }
+    img{
+        width: 100%!important;
+    }
+    #subscribe .flex{
+        flex-wrap: wrap;
+    }
+    #subscribe .flex .name, #subscribe .flex .email{
+        width: 50%;
+        padding: 0;
+    }
+    #subscribe .flex .email input{
+    }
+    #furni {
+        padding: 0;
+        margin: 0;
+    }
+    #subscribe picture {
+        width: 100%;
+        transform: unset;
+    }
+    #furni ul {
+        padding: 10px 0;
+    }
+}

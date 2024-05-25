@@ -1,0 +1,548 @@
+header .row {
+    background-color: #3B5D50;
+    color: white;
+    padding: 20px 90px;
+}
+
+header ul {
+    padding: 0 0 0 200px;
+}
+
+header li {
+    padding: 0 20px;
+    font-size: 18px;
+    color: #8DA199;
+}
+
+header .color {
+    width: 0;
+    height: 4px;
+    background-color: #F9BF29;
+    transition: all .3s linear;
+}
+
+header li:hover .color {
+    width: 100%;
+    height: 4px;
+
+}
+
+header li:hover {
+    color: white;
+}
+
+header .title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'NextDemo', sans-serif;
+}
+
+header ion-icon {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+header .active {
+    color: white;
+    border-bottom: 4px solid #F9BF29;
+}
+
+#modern .row {
+    background-color: #3B5D50;
+}
+
+#modern .title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #f9be29dc;
+}
+
+#modern .p-50 {
+    padding: 100px 0 0 100px;
+}
+
+#modern .desc {
+    color: #8DA199;
+    padding: 30px 0;
+}
+
+#modern .buttons button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#modern .button_1 button {
+    background-color: #F9BF29;
+    border: none;
+    font-size: 18px;
+}
+
+#modern .button_1 button:hover {
+    background-color: #f9be29e0;
+}
+
+#modern .button_2 {
+    padding: 0 0 0 15px;
+}
+
+#modern .button_2 button {
+    background-color: transparent;
+    border: 2px solid #768E85;
+    font-size: 18px;
+    color: white;
+}
+
+#modern .button_2 button:hover {
+    border: 2px solid white;
+}
+
+#crafted .row {
+    padding: 100px;
+    background-color: #EFF2F1;
+}
+
+#crafted .col {
+    padding: 0 10px;
+}
+
+#crafted .title {
+    font-size: 35px;
+}
+
+#crafted .desc {
+    padding: 20px 0;
+    color: #768E85;
+}
+
+#crafted button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #2F2F2F;
+    color: white;
+    cursor: pointer;
+}
+
+#crafted button:hover {
+    background-color: #2f2f2fde;
+}
+
+#crafted .name {
+    padding: 10px 0 0 0;
+}
+
+#crafted .desc_ {
+    text-align: center;
+    font-weight: bold;
+    padding: 0 0 50px 0;
+}
+
+#crafted .wrapper {
+    position: relative;
+}
+
+#crafted .overlay {
+    position: absolute;
+    width: 100%;
+    height: 0;
+    background-color: rgba(0, 0, 255, 0.116);
+    bottom: 0;
+    left: 0;
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+#crafted .wrapper:hover .overlay {
+    width: 100%;
+    height: 70%;
+}
+
+
+#crafted .add {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+    width: 40px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    transform: translate(110px, 40%);
+    transition: all .3s linear;
+    cursor: pointer;
+}
+
+#crafted .wrapper:hover .add {
+    opacity: 1;
+    transform: translate(110px, 50%);
+}
+
+#crafted .wrapper:hover picture {
+    transform: translate(0, -15%);
+    transition: all .3s linear;
+}
+
+#crafted picture {
+    cursor: pointer;
+}
+
+#choose .row {
+    padding: 150px 15px 80px 15px;
+    background-color: #EFF2F1
+}
+
+#choose ion-icon {
+    font-size: 2em;
+}
+
+#choose .big_title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#choose .title {
+    padding: 15px 0;
+}
+
+#choose .desc {
+    padding: 15px 0 40px 0;
+    color: #768E85;
+}
+
+#choose .desc_ {
+    color: #768E85;
+}
+
+#choose .icon {
+    position: relative;
+}
+
+#choose .overlay {
+    position: absolute;
+    top: 7px;
+    left: 13px;
+    width: 30px;
+    height: 30px;
+    background-color: #cbd5d1a1;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#choose .col-ins {
+    padding: 0 40px 0 0;
+}
+
+#choose .num_2 {
+    padding: 30px 0 0 0;
+}
+
+#choose img {
+    width: 450px;
+    border-radius: 30px;
+    overflow: hidden;
+
+}
+
+#choose .bck {
+    position: relative;
+}
+
+#choose .bck::before {
+    content: '';
+    width: 250px;
+    height: 90px;
+    background-image: radial-gradient(#F9BF29 20%, rgba(255, 255, 255, 0) 20%);
+    background-size: 30px 30px;
+    position: absolute;
+    left: -110px;
+    top: -90px;
+}
+
+#choose .bck::after {
+    content: '';
+    width: 125px;
+    height: 140px;
+    background-image: radial-gradient(#F9BF29 20%, rgba(255, 255, 255, 0) 20%);
+    background-size: 30px 30px;
+    position: absolute;
+    left: -110px;
+    top: 0;
+}
+
+#help_you .row {
+    padding: 200px 0;
+    background-color: #EFF2F1;
+}
+
+#help_you .col {
+    padding: 0 40px;
+}
+
+#help_you img {
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#help_you picture {
+    padding: 0 5px;
+}
+
+#help_you .image_1 img {
+    width: 400px;
+}
+
+#help_you .image_2 img {
+    width: 200px;
+    margin-bottom: 290px;
+}
+
+#help_you .image_1 {
+    position: relative;
+}
+
+#help_you .over_image img {
+    position: absolute;
+    top: 210px;
+    right: -140px;
+    width: 300px;
+    height: 380px;
+}
+
+#help_you .title {
+    font-size: 2em;
+    font-weight: bold;
+}
+
+#help_you .desc {
+    padding: 30px 0; 
+    color: #768E85;
+}
+
+#help_you .donec {
+    padding: 15px 0;
+    color: #768E85;
+}
+
+#help_you .p-20px {
+    padding: 0 20px;
+}
+
+#help_you ion-icon {
+    padding: 0 5px 0 0;
+}
+
+#help_you button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    border: none;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #2F2F2F;
+    color: white;
+    cursor: pointer;
+}
+
+#help_you button:hover {
+    background-color: #2f2f2fde;
+}
+
+#help_you .btn {
+    padding: 20px 0 0 0;
+}
+
+#help_you .image_1::before {
+    content: '';
+    width: 270px;
+    height: 90px;
+    background-image: radial-gradient(#35736E 20%, rgba(255, 255, 255, 0) 20%);
+    background-size: 30px 30px;
+    position: absolute;
+    left: -110px;
+    top: -100px;
+}
+
+#help_you .image_1::after {
+    content: '';
+    width: 125px;
+    height: 140px;
+    background-image: radial-gradient(#35736E 20%, rgba(255, 255, 255, 0) 20%);
+    background-size: 30px 30px;
+    position: absolute;
+    left: -110px;
+    top: -10px;
+}
+
+#read_more .row {
+    padding: 0 80px 80px 80px;
+    background-color: #EFF2F1;
+}
+
+#read_more img {
+    width: 100px;
+}
+
+#read_more .img_ {
+    width: 100px;
+    background-color: #DCE5E4;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+#read_more .chair {
+    padding: 0 0 0 15px;
+}
+
+#read_more .name {
+    font-weight: bold;
+}
+
+#read_more .desc {
+    padding: 10px 0;
+    color: #768E85;
+}
+
+#testimonials .row {
+    text-align: center;
+    background-color: #EFF2F1;
+    padding: 80px 0 200px 0;
+}
+
+#testimonials .title {
+    font-size: 35px;
+}
+
+#testimonials .desc {
+    font-size: 22px;
+    padding: 50px 0;
+    color: #768E85;
+}
+
+#testimonials img {
+    width: 100px;
+    border-radius: 50px;
+    overflow: hidden;
+}
+
+#testimonials .name {
+    padding: 15px 0 5px 0;
+    font-weight: bold;
+}
+
+#testimonials .founder {
+    color: #768E85;
+}
+
+#subscribe .row {
+    padding: 40px;
+}
+
+#subscribe .title {
+    font-size: 2em;
+    padding: 60px 0 10px 0;
+}
+
+#subscribe .title ion-icon {
+    color: #CED4DA;
+}
+
+
+#subscribe input {
+    padding: 15px 40px 15px 5px;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+}
+
+#subscribe button {
+    padding: 10px 20px;
+    background-color: #3B5D50;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#subscribe button ion-icon {
+    font-size: 2em;
+}
+
+#subscribe button:hover {
+    background-color: #3b5d50ce;
+}
+
+#subscribe .email {
+    padding: 0 20px;
+}
+
+#subscribe picture {
+    width: 400px;
+    transform: translate(0, -40%);
+}
+
+#subscribe .shadow {
+    filter: drop-shadow(2px 2px 2px rgba(19, 65, 19, 0.849));
+}
+
+#furni {
+    padding: 0 50px 30px 50px;
+    margin-top: -120px;
+}
+
+#furni .row {
+    border-bottom: 1px solid #CED4DA;
+}
+
+#furni .title {
+    font-size: 3em;
+    color: #3B5D50;
+}
+
+#furni .desc {
+    color: #826A9A;
+    padding: 25px 0;
+}
+
+#furni ion-icon {
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 20px;
+    background-color: #DCE5E4;
+    color: #3B5D50;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#furni ion-icon:hover {
+    background-color: #3B5D50;
+    color: #DCE5E4;
+}
+
+#furni ul {
+    padding: 70px 0;
+}
+
+#furni li {
+    padding: 5px 0;
+    color: #826A9A;
+}
+
+footer .row {
+    padding: 0 120px 30px 120px;
+    color: #826A9A;
+}
+
+footer li {
+    padding: 0 10px;
+}

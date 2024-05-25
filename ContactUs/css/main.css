@@ -1,0 +1,282 @@
+header .row {
+    background-color: #3B5D50;
+    color: white;
+    padding: 20px 90px;
+}
+
+header ul {
+    padding: 0 0 0 200px;
+}
+
+header li {
+    padding: 0 20px;
+    font-size: 18px;
+    color: #8DA199;
+}
+
+header .color {
+    width: 0;
+    height: 4px;
+    background-color: #F9BF29;
+    transition: all .3s linear;
+}
+
+header li:hover .color {
+    width: 100%;
+    height: 4px;
+
+}
+
+header li:hover {
+    color: white;
+}
+
+header .title {
+    font-size: 30px;
+    font-weight: bold;
+    font-family: 'NextDemo', sans-serif;
+}
+
+header ion-icon {
+    padding: 0 20px;
+    font-size: 25px;
+}
+
+header .active {
+    color: white;
+    border-bottom: 4px solid #F9BF29;
+}
+
+#contact .row {
+    background-color: #3B5D50;
+}
+
+#contact .title {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #f9be29dc;
+    
+}
+
+#contact .p-50 {
+    padding: 100px 0 0 100px;
+}
+
+#contact .desc {
+    color: #8DA199;
+    padding: 30px 0;
+}
+
+#contact .buttons button {
+    padding: 15px 30px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#contact .button_1 button {
+    background-color: #F9BF29;
+    border: none;
+    font-size: 18px;
+}
+
+#contact .button_1 button:hover {
+    background-color: #f9be29e0;
+}
+
+#contact .button_2 {
+    padding: 0 0 0 15px;
+}
+
+#contact .button_2 button {
+    background-color: transparent;
+    border: 2px solid #768E85;
+    font-size: 18px;
+    color: white;
+}
+
+#contact .button_2 button:hover {
+    border: 2px solid white;
+}
+
+#contact picture {
+    transform: translate(0, 110px);
+}
+
+#info .row {
+    padding: 100px 0;
+    background-color: #EFF2F1;
+}
+
+#info .col {
+    padding: 0 35px;
+}
+
+#info ion-icon {
+    padding: 15px;
+    background-color: #3B5D50;
+    color: white;
+    font-size: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+#info .desc {
+    padding: 0 0 0 20px;
+    color: #768E85;
+}
+
+#address .row {
+    background-color: #EFF2F1; 
+}
+
+#address .name {
+    padding: 0 20px 0 0;
+}
+
+#address .name input {
+    padding: 10px 175px 10px 5px;
+}
+
+#address .email {
+    padding: 15px 0;
+}
+
+#address .email input {
+    padding: 10px 550px 10px 5px;
+}
+
+#address input,
+.text {
+    border: 1px solid gray;
+    border-radius: 7px;
+    overflow: hidden;
+}
+
+#address .btn {
+    padding: 30px 0 120px 0;
+}
+
+#address button {
+    padding: 15px 30px;
+    border: transparent;
+    border-radius: 25px;
+    overflow: hidden;
+    background-color: #2F2F2F;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#address button:hover {
+    background-color: #2f2f2fd8;
+}
+
+#subscribe .row {
+    padding: 40px;
+}
+
+#subscribe .title {
+    font-size: 2em;
+    padding: 60px 0 10px 0;
+}
+
+#subscribe .title ion-icon {
+    color: #CED4DA;
+}
+
+
+#subscribe input {
+    padding: 15px 40px 15px 5px;
+    border-radius: 10px;
+    border: 1px solid #CED4DA;
+}
+
+#subscribe button {
+    padding: 10px 20px;
+    background-color: #3B5D50;
+    color: white;
+    border: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#subscribe button ion-icon {
+    font-size: 2em;
+}
+
+#subscribe button:hover {
+    background-color: #3b5d50ce;
+}
+
+#subscribe .email {
+    padding: 0 20px;
+}
+
+#subscribe picture {
+    width: 400px;
+    transform: translate(0, -40%);
+}
+
+#subscribe .shadow {
+    filter: drop-shadow(2px 2px 2px rgba(19, 65, 19, 0.849));
+}
+
+#furni {
+    padding: 0 50px 30px 50px;
+    margin-top: -120px;
+}
+
+#furni .row {
+    border-bottom: 1px solid #CED4DA;
+}
+
+#furni .title {
+    font-size: 3em;
+    color: #3B5D50;
+}
+
+#furni .desc {
+    color: #826A9A;
+    padding: 25px 0;
+}
+
+#furni ion-icon {
+    padding: 15px;
+    margin: 0 5px;
+    font-size: 20px;
+    background-color: #DCE5E4;
+    color: #3B5D50;
+    border-radius: 25px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all .3s linear;
+}
+
+#furni ion-icon:hover {
+    background-color: #3B5D50;
+    color: #DCE5E4;
+}
+
+#furni ul {
+    padding: 70px 0;
+}
+
+#furni li {
+    padding: 5px 0;
+    color: #826A9A;
+}
+
+footer .row {
+    padding: 0 120px 30px 120px;
+    color: #826A9A;
+}
+
+footer li {
+    padding: 0 10px;
+}
